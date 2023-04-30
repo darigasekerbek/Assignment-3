@@ -3,7 +3,7 @@ import java.util.EmptyStackException;
 
 public class MyArrayListStack<T> {
     private ArrayList<T> arr_list;
-    public MyArrayListStack(){
+    public MyArrayListStack(){ // constructor that init MyArrayListStack
         arr_list = new ArrayList<>();
     }
     //  add an item on the top of stack
