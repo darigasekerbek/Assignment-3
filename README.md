@@ -13,3 +13,20 @@ isEmpty() is a public boolean.
 This method determines if the queue is empty. If the queue is empty, true is returned; if not, it returns false.
 public int() size
 This procedure returns the size of the queue.
+
+
+MyArrayListStack is a generic class that implements a structure 
+using the ArrayList data structure. It provides methods to add 
+and remove elements from the stack, look at the element at 
+the top of the stack, check, empty the stack,
+get the size of the stack.
+public void push(T item)
+This method adds an element to the top of the stack.
+public T pop ()
+This method removes and returns the element at the top of the stack. If the stack is empty, an EmptyStackException is thrown.
+public peek()
+This method returns the element at the top of the stack without removing it. If the stack is empty, an EmptyStackException is thrown.
+public boolean isEmpty()
+This method checks if the stack is empty or not. Returns true if the stack is empty, false otherwise.
+public size()
+This method returns the number of elements on the stack.
