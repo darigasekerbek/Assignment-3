@@ -23,4 +23,8 @@ public class MyLinkedListStack<T> {
         }
         return link_list.getFirst();
     }
+    public boolean isEmpty(){
+        return link_list.isEmpty();
+    }
+
 }
