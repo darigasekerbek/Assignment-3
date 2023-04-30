@@ -17,7 +17,7 @@ public class MyArrayListQueue<T> {
         }
         return arr_list.remove(0);
     }
-    // method that return element at the beginnig without removing
+    // method that return element at the beginning without removing
     public T peek(){
         if(arr_list.isEmpty()){
             throw new NoSuchElementException();

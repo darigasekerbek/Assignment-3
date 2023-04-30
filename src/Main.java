@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Main{
     public static void main(String[] args) {
         MyArrayListStack<Integer> arr_stack = new MyArrayListStack<>();
@@ -23,5 +21,13 @@ public class Main{
         System.out.println(link_stack.size());
         System.out.println(link_stack.isEmpty());
 
+
+        MyArrayListQueue<Integer> arr_queue = new MyArrayListQueue<>();
+        System.out.println("MyArrayListQueue");
+        arr_queue.enqueue(1);
+        arr_queue.enqueue(2);
+        arr_queue.enqueue(3);
+        System.out.println(arr_queue.dequeue());
+        System.out.println(arr_queue.isEmpty());
     }
 }
