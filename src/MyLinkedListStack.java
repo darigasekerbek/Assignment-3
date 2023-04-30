@@ -16,6 +16,7 @@ public class MyLinkedListStack<T> {
         }
         return link_list.removeFirst();
     }
+    // return item at the top without removing it
     public T peek(){
         if(link_list.isEmpty()){
             throw new EmptyStackException();
