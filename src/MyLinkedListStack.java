@@ -5,4 +5,8 @@ public class MyLinkedListStack<T> {
     public MyLinkedListStack(){
         link_list = new LinkedList<>();
     }
+    //add item on the top of stack
+    public void push (T item){
+        link_list.addFirst(item);
+    }
 }
