@@ -27,6 +27,10 @@ public class MyLinkedListStack<T> {
     public boolean isEmpty(){
         return link_list.isEmpty();
     }
+    // return num of item in stack
+    public int size(){
+        return link_list.size();
+    }
 
 
 }
