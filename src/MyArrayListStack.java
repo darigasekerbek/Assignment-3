@@ -4,5 +4,9 @@ public class MyArrayListStack<T> {
     public MyArrayListStack(){
         arr_list = new ArrayList<>();
     }
+    //  add an item on the top of stack
+    public void push (T item){
+        arr_list.add(item);
+    }
 
 }
