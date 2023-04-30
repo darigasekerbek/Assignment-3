@@ -28,4 +28,8 @@ public class MyArrayListStack<T> {
    public boolean isEmpty(){
         return arr_list.isEmpty();
    }
+   //return num of item in stack
+   public int size(){
+        return arr_list.size();
+   }
 }
