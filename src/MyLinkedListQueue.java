@@ -21,5 +21,11 @@ public class MyLinkedListQueue<T> {
        }
        return link_list.getFirst();
    }
+   public boolean isEmpty(){ // check if queue is empty or not
+        return link_list.isEmpty();
+   }
+   public int size(){ //return the size of queue
+        return link_list.size();
+   }
 
 }
