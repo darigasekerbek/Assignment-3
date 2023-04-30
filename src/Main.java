@@ -11,6 +11,13 @@ public class Main{
         while(!arr_stack.isEmpty()){
             System.out.println(arr_stack.pop());
         }
+        MyLinkedListStack<Integer> link_stack = new MyLinkedListStack<>();
+        link_stack.push(101);
+        link_stack.push(102);
+        link_stack.push(103);
+        System.out.println(link_stack.pop());
+        System.out.println(link_stack.size());
+        System.out.println(link_stack.isEmpty());
 
     }
 }
