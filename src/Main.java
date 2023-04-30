@@ -19,7 +19,9 @@ public class Main{
         link_stack.push(103);
         System.out.println(link_stack.pop());
         System.out.println(link_stack.size());
-        System.out.println(link_stack.isEmpty());
+        while(!link_stack.isEmpty()){
+            System.out.println(link_stack.pop());
+        }
 
 
         MyArrayListQueue<Integer> arr_queue = new MyArrayListQueue<>();
@@ -29,5 +31,15 @@ public class Main{
         arr_queue.enqueue(3);
         System.out.println(arr_queue.dequeue());
         System.out.println(arr_queue.isEmpty());
+
+
+        MyLinkedListQueue<Integer> link_queue = new MyLinkedListQueue<>();
+        System.out.println("MyLinkedListQueue");
+        link_queue.enqueue(9);
+        link_queue.enqueue(8);
+        link_queue.enqueue(7);
+        System.out.println(link_queue.dequeue());
+        System.out.println(link_queue.isEmpty());
+        System.out.println(link_queue.peek());
     }
 }
