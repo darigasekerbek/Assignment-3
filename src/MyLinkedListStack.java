@@ -9,6 +9,7 @@ public class MyLinkedListStack<T> {
     public void push (T item){
         link_list.addFirst(item);
     }
+    //remove and return item at the top of the stack
     public T pop(){
         if(link_list.isEmpty()){
             throw new EmptyStackException();
